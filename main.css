@@ -1,0 +1,53 @@
+.wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header{
+    background-image:url(images/tree.jpg);
+    height: 200px;
+    background-position: center;
+}
+
+h1{
+    font-size: 2.5rem;
+    padding-top: 6%;
+    padding-left: 2%;
+    color: blanchedalmond;
+}
+
+h2{
+    font-size: 2rem;
+    padding-left: 2%;
+    color:blanchedalmond;
+}
+
+main{
+    padding-left: 2%:
+}
+
+h3{
+    color: brown;
+    font-size: 2rem;
+}
+
+h4{
+    color: green;
+    font-size: 1.5rem;
+}
+
+li{
+    list-style-type: disc;
+    font-size: 1rem;
+}
+
+footer{
+    background-color: brown;
+
+}
+
+p{
+    color: white;
+    font-size: .6rem;
+    text-align: center;
+}
