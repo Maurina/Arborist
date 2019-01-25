@@ -41,6 +41,20 @@ li{
     font-size: 1rem;
 }
 
+.columns{
+    display: flex;
+
+}
+
+.left{
+   
+    width: 50%;
+}
+
+.right{
+   
+    width: 50%;
+}
 footer{
     background-color: brown;
 
