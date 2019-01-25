@@ -9,10 +9,12 @@ let displayTreeArray = function() {
     for (i=0; i<treesArray.length; i++) {
             treeListItems += treesArray[i] + "<br>";
         }
+ 
     document.getElementById('treeList').innerHTML = treeListItems;
+    let lengthOfArray = document.getElementById('lengthList').innerHTML = `${treesArray.length} elements long`;
+
 
 };//displayTreeArray
-
 
 
 

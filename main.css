@@ -13,32 +13,43 @@ h1{
     font-size: 2.5rem;
     padding-top: 6%;
     padding-left: 2%;
-    color: blanchedalmond;
+    color: #000;
 }
 
 h2{
     font-size: 2rem;
     padding-left: 2%;
-    color:blanchedalmond;
+    color:#000;
 }
 
 main{
-    padding-left: 2%:
+    padding-left: 2%;
 }
 
 h3{
-    color: brown;
-    font-size: 2rem;
+    color: #654321;
+    font-size: 1.5rem;
 }
 
 h4{
     color: green;
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 li{
     list-style-type: disc;
     font-size: 1rem;
+}
+
+button{
+    background-color:#654321;
+    font-size: .8rem;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    width: 80%;
+    padding: 2%;
+    margin-bottom: 4%;
 }
 
 .columns{
@@ -47,16 +58,27 @@ li{
 }
 
 .left{
-   
-    width: 50%;
+    display: flex;
+    flex-direction: column;
+ align-content: center;
+    width: 33%;
+}
+
+.middle{
+    width: 33%;
 }
 
 .right{
    
-    width: 50%;
+    width:33%;
+}
+
+.error{
+    color: red;
 }
 footer{
-    background-color: brown;
+    background-color:#654321;
+    padding: .1rem;
 
 }
 
